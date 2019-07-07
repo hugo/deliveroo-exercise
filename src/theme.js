@@ -1,7 +1,8 @@
 export default {
-  breakpoints: ["20rem", "40rem"],
+  breakpoints: ["30rem", "60rem"],
   colors: {
-    lightgray: "#f6f6ff",
+    darkgray: "#2E3333",
+    lightgray: "#828585",
     teal: "#00ccbc",
     darkteal: "#00665e",
     white: "#ffffff"
