@@ -17,8 +17,14 @@ export default function({ neighborhood }) {
           {neighborhood}
         </Stratos>
 
-        <Button backgroundColor="white" color="teal" mt={3}>
-          Change location
+        <Button
+          backgroundColor="white"
+          color="teal"
+          fontWeight="400"
+          fontSize={1}
+          mt={3}
+        >
+          Change Location
         </Button>
       </Container>
     </Box>
