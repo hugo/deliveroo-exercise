@@ -25,10 +25,50 @@
   font-display: "fallback";
 }
 
+html {
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+  height: 100%;
+  margin: 0;
+}
+
 .adelle {
   font-family: adelle, sans-serif;
 }
 
 .stratos {
   font-family: stratos, sans-serif;
+}
+
+.teal {
+  color: #00ccbc;
+}
+
+.white {
+  color: white;
+}
+
+.bg-teal {
+  background-color: #00ccbc;
+}
+
+.container {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.header {
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
