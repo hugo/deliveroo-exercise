@@ -4,6 +4,7 @@
   "description": "Deliveroo \"take home\" coding exercise",
   "main": "dist/index.html",
   "scripts": {
+    "prettier": "prettier --write '**/*.{js,css,json,md}'",
     "test": "jest"
   },
   "repository": {
@@ -16,5 +17,21 @@
     "url": "https://github.com/hugo/deliveroo-exercise/issues"
   },
   "homepage": "https://github.com/hugo/deliveroo-exercise#readme",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "husky": "^3.0.0",
+    "lint-staged": "^9.1.0",
+    "prettier": "^1.18.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,css,json,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  }
 }
