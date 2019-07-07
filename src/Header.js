@@ -8,7 +8,7 @@ import Stratos from "./Stratos";
 export default function({ neighborhood }) {
   return (
     <Box backgroundColor="teal">
-      <Container p={3}>
+      <Container p={3} py={[3, 4]}>
         <Flex flexWrap="wrap" justifyContent="space-between">
           <Flex flexDirection="column" justifyContent="center">
             <Adelle
