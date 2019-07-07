@@ -4,7 +4,9 @@
   "description": "Deliveroo \"take home\" coding exercise",
   "main": "dist/index.html",
   "scripts": {
-    "prettier": "prettier --write '**/*.{js,css,json,md}'",
+    "prettier": "prettier --write '**/*.{js,css,json,md,html}'",
+    "start": "parcel -p 8000 src/index.html",
+    "build": "parcel build src/index.html",
     "test": "jest"
   },
   "repository": {
@@ -21,6 +23,7 @@
   "devDependencies": {
     "husky": "^3.0.0",
     "lint-staged": "^9.1.0",
+    "parcel-bundler": "^1.12.3",
     "prettier": "^1.18.2"
   },
   "husky": {
@@ -29,7 +32,7 @@
     }
   },
   "lint-staged": {
-    "*.{js,css,json,md}": [
+    "*.{js,css,json,md,html}": [
       "prettier --write",
       "git add"
     ]

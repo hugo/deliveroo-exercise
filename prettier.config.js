@@ -12,6 +12,12 @@ module.exports = {
       rules: {
         proseWrap: "always"
       }
+    },
+    {
+      files: "*.html",
+      rules: {
+        htmlWhitespaceSensitivity: "css"
+      }
     }
   ]
 };
