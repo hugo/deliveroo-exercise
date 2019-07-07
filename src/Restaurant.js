@@ -1,8 +1,8 @@
-import React from "react";
-import { Box } from "rebass";
+import React from "react"
+import { Box } from "rebass"
 
-import Stratos from "./Stratos";
-import Meta from "./Meta";
+import Stratos from "./Stratos"
+import Meta from "./Meta"
 
 export default function Restaurant({ id, name, image, url, price, tags }) {
   return (
@@ -13,5 +13,5 @@ export default function Restaurant({ id, name, image, url, price, tags }) {
       </Stratos>
       <Meta price={price} tags={tags} />
     </Box>
-  );
+  )
 }

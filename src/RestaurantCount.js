@@ -1,8 +1,8 @@
-import React from "react";
-import { Box } from "rebass";
+import React from "react"
+import { Box } from "rebass"
 
-import Adelle from "./Adelle";
-import HideSmall from "./HideSmall";
+import Adelle from "./Adelle"
+import HideSmall from "./HideSmall"
 
 export default function({ count }) {
   return (
@@ -13,5 +13,5 @@ export default function({ count }) {
         </Adelle>
       </Box>
     </HideSmall>
-  );
+  )
 }

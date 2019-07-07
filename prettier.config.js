@@ -1,23 +1,25 @@
 module.exports = {
   printWidth: 80,
+  proseWrap: "always",
   overrides: [
     {
       files: "*.js",
-      rules: {
-        semi: false
-      }
+      options: {
+        semi: false,
+        trailingComma: "es5",
+      },
     },
     {
       files: "*.md",
-      rules: {
-        proseWrap: "always"
-      }
+      options: {
+        proseWrap: "always",
+      },
     },
     {
       files: "*.html",
-      rules: {
-        htmlWhitespaceSensitivity: "css"
-      }
-    }
-  ]
-};
+      options: {
+        htmlWhitespaceSensitivity: "css",
+      },
+    },
+  ],
+}

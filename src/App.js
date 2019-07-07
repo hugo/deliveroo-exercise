@@ -1,12 +1,12 @@
-import React from "react";
-import { ThemeProvider } from "styled-components";
+import React from "react"
+import { ThemeProvider } from "styled-components"
 
-import theme from "./theme";
+import theme from "./theme"
 
-import TopNav from "./TopNav";
-import Header from "./Header";
-import RestaurantsLoader from "./RestaurantsLoader";
-import RestaurantsList from "./RestaurantsList";
+import TopNav from "./TopNav"
+import Header from "./Header"
+import RestaurantsLoader from "./RestaurantsLoader"
+import RestaurantsList from "./RestaurantsList"
 
 export default function App() {
   return (
@@ -24,5 +24,5 @@ export default function App() {
         </RestaurantsLoader>
       </>
     </ThemeProvider>
-  );
+  )
 }

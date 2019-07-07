@@ -1,9 +1,9 @@
-import React from "react";
-import { Box, Flex } from "rebass";
+import React from "react"
+import { Box, Flex } from "rebass"
 
-import Container from "./Container";
-import Restaurant from "./Restaurant";
-import RestaurantCount from "./RestaurantCount";
+import Container from "./Container"
+import Restaurant from "./Restaurant"
+import RestaurantCount from "./RestaurantCount"
 
 export default function({ restaurants }) {
   return (
@@ -16,5 +16,5 @@ export default function({ restaurants }) {
         ))}
       </Flex>
     </Container>
-  );
+  )
 }

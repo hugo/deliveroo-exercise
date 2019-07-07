@@ -1,13 +1,13 @@
-import React from "react";
-import { Box, Flex } from "rebass";
+import React from "react"
+import { Box, Flex } from "rebass"
 
-import Adelle from "./Adelle";
-import Container from "./Container";
-import HideSmall from "./HideSmall";
+import Adelle from "./Adelle"
+import Container from "./Container"
+import HideSmall from "./HideSmall"
 
-import logoIcon from "./svg/logo-icon.svg";
-import logoHorizontal from "./svg/logo-horizontal.svg";
-import userIcon from "./svg/user-icon.svg";
+import logoIcon from "./svg/logo-icon.svg"
+import logoHorizontal from "./svg/logo-horizontal.svg"
+import userIcon from "./svg/user-icon.svg"
 
 export default function TopNav() {
   return (
@@ -30,5 +30,5 @@ export default function TopNav() {
         </Flex>
       </Flex>
     </Container>
-  );
+  )
 }

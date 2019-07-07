@@ -1,12 +1,12 @@
-import styled from "styled-components";
-import { Text } from "rebass";
+import styled from "styled-components"
+import { Text } from "rebass"
 
 const Stratos = styled(Text)({
-  fontFamily: "stratos"
-});
+  fontFamily: "stratos",
+})
 
 Stratos.defaultProps = {
-  fontWeight: 600
-};
+  fontWeight: 600,
+}
 
-export default Stratos;
+export default Stratos

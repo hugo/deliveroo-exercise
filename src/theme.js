@@ -5,11 +5,11 @@ export default {
     lightgray: "#828585",
     teal: "#00ccbc",
     darkteal: "#00665e",
-    white: "#ffffff"
+    white: "#ffffff",
   },
   fontSizes: [14, 16, 22, 34],
   fonts: {
     adelle: "adelle, sans-serif",
-    stratos: "stratos, sans-serif"
-  }
-};
+    stratos: "stratos, sans-serif",
+  },
+}

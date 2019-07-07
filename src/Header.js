@@ -1,9 +1,9 @@
-import React from "react";
-import { Box, Button, Flex } from "rebass";
+import React from "react"
+import { Box, Button, Flex } from "rebass"
 
-import Adelle from "./Adelle";
-import Container from "./Container";
-import Stratos from "./Stratos";
+import Adelle from "./Adelle"
+import Container from "./Container"
+import Stratos from "./Stratos"
 
 export default function({ neighborhood }) {
   return (
@@ -44,5 +44,5 @@ export default function({ neighborhood }) {
         </Flex>
       </Container>
     </Box>
-  );
+  )
 }

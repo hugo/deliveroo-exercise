@@ -1,8 +1,8 @@
-import styled from "styled-components";
-import { Text } from "rebass";
+import styled from "styled-components"
+import { Text } from "rebass"
 
 const Adelle = styled(Text)({
-  fontFamily: "adelle"
-});
+  fontFamily: "adelle",
+})
 
-export default Adelle;
+export default Adelle
