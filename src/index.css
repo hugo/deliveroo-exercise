@@ -34,3 +34,10 @@ body {
   height: 100%;
   margin: 0;
 }
+
+/* Hidden on small screens */
+@media screen and (max-width: 30rem) {
+  .hs {
+    display: none;
+  }
+}
