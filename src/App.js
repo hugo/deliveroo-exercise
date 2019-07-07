@@ -1,26 +1,19 @@
 import React from "react";
+import { ThemeProvider } from "styled-components";
 
-import logoIcon from "./svg/logo-icon.svg";
-import userIcon from "./svg/user-icon.svg";
+import theme from "./theme";
+
+import TopNav from "./TopNav";
+import Header from "./Header";
 
 export default function App() {
   return (
-    <>
-      <div class="container">
-        <div class="top-nav">
-          <img src={logoIcon} />
-          <img src={userIcon} />
-        </div>
-      </div>
+    <ThemeProvider theme={theme}>
+      <>
+        <TopNav />
 
-      <div class="bg-teal">
-        <div class="container">
-          <div class="header">
-            <h1 class="stratos white">Deliveroo</h1>
-            <h2 class="adelle white">Take home exercise</h2>
-          </div>
-        </div>
-      </div>
-    </>
+        <Header />
+      </>
+    </ThemeProvider>
   );
 }
