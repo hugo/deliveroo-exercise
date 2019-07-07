@@ -20,6 +20,10 @@
   },
   "homepage": "https://github.com/hugo/deliveroo-exercise#readme",
   "private": true,
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
   "devDependencies": {
     "husky": "^3.0.0",
     "lint-staged": "^9.1.0",
