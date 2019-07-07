@@ -1,0 +1,19 @@
+{
+  "name": "deliveroo-exercise",
+  "version": "0.1.0",
+  "description": "Deliveroo \"take home\" coding exercise",
+  "main": "dist/index.html",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugo/deliveroo-exercise.git"
+  },
+  "author": "Hugo Jobling <hello@thisishugo.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/hugo/deliveroo-exercise/issues"
+  },
+  "homepage": "https://github.com/hugo/deliveroo-exercise#readme"
+}
