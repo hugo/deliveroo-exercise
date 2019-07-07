@@ -1,16 +1,25 @@
 import React from "react";
-import { Box } from "rebass";
+import { Box, Button } from "rebass";
 
+import Adelle from "./Adelle";
 import Container from "./Container";
 import Stratos from "./Stratos";
 
-export default function() {
+export default function({ neighborhood }) {
   return (
-    <Box backgroundColor="teal" p={4}>
+    <Box backgroundColor="teal" p={3}>
       <Container p={2}>
-        <Stratos as="h2" fontSize={4} fontWeight="400" color="white">
-          Deliveroo
+        <Adelle as="h1" my={1} fontSize={1} fontWeight="700" color="darkteal">
+          Location
+        </Adelle>
+
+        <Stratos as="h2" my={1} fontSize={2} fontWeight="400" color="white">
+          {neighborhood}
         </Stratos>
+
+        <Button backgroundColor="white" color="teal" mt={3}>
+          Change location
+        </Button>
       </Container>
     </Box>
   );
