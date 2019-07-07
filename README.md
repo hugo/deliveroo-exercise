@@ -1,6 +1,6 @@
 # Deliveroo exercise
 
-## Notes
+## Notes
 
 Fonts were... borrowed using
 [archive.org](https://web.archive.org/web/20180318065442/https://deliveroo.co.uk/).
